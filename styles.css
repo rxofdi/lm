@@ -37,3 +37,12 @@
     transform: translateX(-200%);
   }
 }
+
+/* In your styles.css file */
+h1 {
+  color: #FFFFFF;
+}
+p {
+  color: #FFFFFF;
+}
+
