@@ -1,1 +1,25 @@
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hiroshima Territory</title>
+    <body>
+      
+      <button onclick="toggleText()">Show/Hide Text</button>
+<div id="myText" style="display:none;">
+  This is the text that will be toggled!
+</div>
+
+      <script> function toggleText() {
+  var x = document.getElementById("myText");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+    </body>
+  </head>
+</html>
