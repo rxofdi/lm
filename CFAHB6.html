@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>6 Dance! ^^ 6 Dance! :) </title>
+  </head>
+  <body>
+    <img id="follower" src="your-image.png" alt="follower" style="position: fixed; width: 50px; pointer-events: none;">
+
+    <script> const image = document.getElementById('follower');
+
+document.addEventListener('mousemove', (e) => {
+    // Use clientX and clientY for coordinates relative to the viewport
+    const x = e.clientX;
+    const y = e.clientY;
+
+    // Update the image position
+    // Subtract half the image size (e.g., 25px) to center it on the cursor
+    image.style.left = `${x - 25}px`;
+    image.style.top = `${y - 25}px`;
+});
+</script>
+
+  </body>
+</html>
